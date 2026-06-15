@@ -28,7 +28,12 @@ const { frontmatter } = Astro.props;
         <div class="avatar-ring">
           <div class="avatar-glow"></div>
           <div class="avatar-inner">
-            <span class="avatar-emoji">👨‍💻</span>
+            <img
+              src="src/assets/images/perfil.webp"
+              alt="Avatar"
+              class="avatar-perfil"
+              loading="lazy"
+            />
           </div>
         </div>
         <h1 class="hero-title">
@@ -36,9 +41,14 @@ const { frontmatter } = Astro.props;
           <span class="name-glow">{SITE.author}</span>
         </h1>
         <div class="hero-badges">
-          <span class="badge" data-badge>🚀 Developer</span>
-          <span class="badge" data-badge>📚 Student</span>
-          <span class="badge" data-badge>🎮 Gamer</span>
+          <span class="badge" data-badge>⚙️ Backend Developer</span>
+          <span class="badge" data-badge>☕ Java</span>
+          <span class="badge" data-badge>💜 Kotlin</span>
+          <span class="badge" data-badge>🌱 Spring Boot</span>
+          <span class="badge" data-badge>⚡ Ktor</span>
+          <span class="badge" data-badge>🗄️ SQL</span>
+          <span class="badge" data-badge>🏭 Industrial automation</span>
+          <span class="badge" data-badge>🤖 Android</span>
         </div>
       </div>
     </div>
@@ -297,9 +307,11 @@ const { frontmatter } = Astro.props;
     animation: ring-spin 6s linear infinite reverse;
   }
 
-  .avatar-emoji {
-    font-size: 2.8rem;
-    line-height: 1;
+  .avatar-perfil {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
   }
 
   .hero-title {

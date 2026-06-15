@@ -8,7 +8,7 @@ tags:
   - linux
   - cli
   - tools
-draft: false
+draft: true
 ---
 
 The CLI ecosystem experienced a silent revolution. Tools written in Rust and Go replaced decades-old Unix binaries, adding colors, syntax highlighting, fuzzy search, and Git-awareness with almost no sacrifice in speed. These are the ones I use daily.
