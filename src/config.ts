@@ -2,7 +2,7 @@ export const SITE = {
   website: "https://e-delsol.github.io",
   author: "Enrique del Sol",
   profile: process.env.PUBLIC_SOCIAL_GITHUB ?? "", // set in .env
-  desc: "A space where curiosity becomes code. Exploring web development, software architecture and everything that makes the tech world spin.",
+  desc: "Where engineering thinking meets backend development and system design.",
   title: "Cronos Digital Stack",
   ogImage: "devosfera-og.webp", // located in the public folder
   lightAndDarkMode: true,
@@ -33,7 +33,7 @@ export const SITE = {
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"
   lang: "en", // html lang code. Set this empty and default will be "en"
-  timezone: "America/Guatemala", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  timezone: "Europe/Madrid", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   introAudio: {
     enabled: false, // show/hide intro player in home and compact player while navigating
     // src: path to file (relative to /public or absolute URL). Example: "/intro.mp3" or "https://example.com/stream"
