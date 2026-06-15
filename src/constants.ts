@@ -34,24 +34,24 @@ export const SOCIALS: Social[] = (
       linkTitle: `${SITE.title} on GitHub`,
       icon: IconGitHub,
     },
-    {
-      name: "X",
-      href: PUBLIC_SOCIAL_X ?? "",
-      linkTitle: `${SITE.title} on X`,
-      icon: IconBrandX,
-    },
+    // {
+    //   name: "X",
+    //   href: PUBLIC_SOCIAL_X ?? "",
+    //   linkTitle: `${SITE.title} on X`,
+    //   icon: IconBrandX,
+    // },
     {
       name: "LinkedIn",
       href: PUBLIC_SOCIAL_LINKEDIN ?? "",
       linkTitle: `${SITE.title} on LinkedIn`,
       icon: IconLinkedin,
     },
-    {
-      name: "Mail",
-      href: PUBLIC_SOCIAL_EMAIL ? `mailto:${PUBLIC_SOCIAL_EMAIL}` : "",
-      linkTitle: `Send an email to ${SITE.title}`,
-      icon: IconMail,
-    },
+    // {
+    //   name: "Mail",
+    //   href: PUBLIC_SOCIAL_EMAIL ? `mailto:${PUBLIC_SOCIAL_EMAIL}` : "",
+    //   linkTitle: `Send an email to ${SITE.title}`,
+    //   icon: IconMail,
+    // },
   ] satisfies Social[]
 ).filter(s => s.href !== "");
 
