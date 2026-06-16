@@ -4,7 +4,7 @@ export const SITE = {
   profile: process.env.PUBLIC_SOCIAL_GITHUB ?? "", // set in .env
   desc: "Where engineering thinking meets backend development and system design.",
   title: "Cronos Digital Stack",
-  ogImage: "devosfera-og.webp", // located in the public folder
+  ogImage: "cronos-digital-stack-og.webp", // located in the public folder
   lightAndDarkMode: true,
   postPerIndex: 6,
   postPerPage: 12,
