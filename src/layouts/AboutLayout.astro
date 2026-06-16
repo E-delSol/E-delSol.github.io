@@ -5,6 +5,7 @@ import Footer from "@/components/Footer.astro";
 import Breadcrumb from "@/components/Breadcrumb.astro";
 import Layout from "./Layout.astro";
 import { SITE } from "@/config";
+import avatar from "../assets/images/avatar.webp";
 
 type Props = MarkdownLayoutProps<{ title: string; description?: string }>;
 
@@ -29,7 +30,7 @@ const { frontmatter } = Astro.props;
           <div class="avatar-glow"></div>
           <div class="avatar-inner">
             <img
-              src="src/assets/images/perfil.webp"
+              src={avatar.src}
               alt="Avatar"
               class="avatar-perfil"
               loading="lazy"
