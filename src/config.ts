@@ -1,7 +1,7 @@
 export const SITE = {
   website: "https://e-delsol.github.io",
   author: "Enrique del Sol",
-  profile: process.env.PUBLIC_SOCIAL_GITHUB ?? "", // set in .env
+  profile: import.meta.env.PUBLIC_SOCIAL_GITHUB ?? "", // set in .env
   desc: "Where engineering thinking meets backend development and system design.",
   title: "Cronos Digital Stack",
   ogImage: "cronos-digital-stack-og.webp", // located in the public folder
@@ -10,8 +10,8 @@ export const SITE = {
   postPerPage: 12,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
-  showGalleries: true,
-  showGalleriesInIndex: true, // Show galleries in the general paginated list (only if showGalleries is true)
+  showGalleries: false,
+  showGalleriesInIndex: false, // Show galleries in the general paginated list (only if showGalleries is true)
   showBackButton: true, // show back button in post detail
   showTagsInCards: true, // show tag pills at the bottom of post cards
   showCoverImages: false, // show cover images (OG) in post cards (requires pnpm build in dev mode)
