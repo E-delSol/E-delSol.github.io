@@ -114,7 +114,7 @@ const gallerySchema = {
           </h1>
           
           {description && (
-            <p class="mt-6 text-lg sm:text-xl leading-relaxed text-foreground/60">{description}</p>
+            <p class="mt-6 text-lg sm:text-xl leading-relaxed text-foreground/80">{description}</p>
           )}
         </div>
 
@@ -136,7 +136,7 @@ const gallerySchema = {
                   href={`/tags/${slugifyStr(tag)}/`}
                   class="group relative inline-flex items-center text-foreground/50 transition-colors duration-300 hover:text-accent font-firacode"
                 >
-                  <span class="mr-1 text-accent/40 transition-colors duration-300 group-hover:text-accent">#</span>
+                  <span class="mr-1 text-accent/80 transition-colors duration-300 group-hover:text-accent">#</span>
                   {tag}
                 </a>
               ))}

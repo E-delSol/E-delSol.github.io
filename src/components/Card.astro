@@ -193,7 +193,7 @@ if (SITE.showCoverImages) {
     <div class="relative z-20 mt-1.5 flex flex-wrap items-center gap-x-3 gap-y-1 pointer-events-none">
       <Datetime pubDatetime={pubDatetime} modDatetime={modDatetime} timezone={timezone} />
       {readingTime && (
-        <span class="flex items-center gap-1 text-sm text-foreground/60 whitespace-nowrap">
+        <span class="flex items-center gap-1 text-sm text-foreground/80 whitespace-nowrap">
           <IconClock class="size-4 shrink-0" aria-hidden="true" />
           {readingTime}
         </span>
@@ -222,7 +222,7 @@ if (SITE.showCoverImages) {
                   ? "border-purple-500/25 bg-purple-500/8 text-purple-400/80 hover:border-purple-500/50 hover:bg-purple-500/15 hover:text-purple-400"
                   : featured
                     ? "border-amber-500/25 bg-amber-500/8 text-amber-500/80 hover:border-amber-500/50 hover:bg-amber-500/15 hover:text-amber-500"
-                    : "border-border/30 bg-muted/15 text-foreground/60 hover:border-accent/40 hover:bg-accent/10 hover:text-accent",
+                    : "border-border/30 bg-muted/15 text-foreground/80 hover:border-accent/40 hover:bg-accent/10 hover:text-accent",
               ]}
             >
               <span aria-hidden="true" class="opacity-60">#</span>{tag}
