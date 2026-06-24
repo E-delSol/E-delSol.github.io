@@ -10,9 +10,16 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
 
     steps:
       - name: Checkout
@@ -28,11 +35,11 @@ jobs:
         run: pnpm install
 
       - name: Build site
-        run: pnpm build
         env:
-          PUBLIC_SOCIAL_GITHUB: ${{ secrets.PUBLIC_SOCIAL_GITHUB }}
-          PUBLIC_SOCIAL_LINKEDIN: ${{ secrets.PUBLIC_SOCIAL_LINKEDIN }}
-
+          PUBLIC_SOCIAL_GITHUB: ${{ vars.PUBLIC_SOCIAL_GITHUB }}
+          PUBLIC_SOCIAL_LINKEDIN: ${{ vars.PUBLIC_SOCIAL_LINKEDIN }}
+        run: pnpm build
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
