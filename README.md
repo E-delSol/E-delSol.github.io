@@ -51,9 +51,11 @@ This blog is an attempt to explore those ideas through real projects and continu
 
 ## Latest Articles
 
-- Starting This Blog
-- From Industrial Engineering to Backend Systems
-- Why Fundamentals Matter More Than Technologies
+<!-- BLOG-POST-LIST:START -->
+
+Loading latest articles...
+
+<!-- BLOG-POST-LIST:END -->
 
 Read more at:
 
