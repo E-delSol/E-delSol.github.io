@@ -20,6 +20,8 @@ featured: true
 
 draft: false
 
+hideEditPost: true
+
 ---
 
 # Java and Memory: How Not to Blow Up Your Infrastructure with One Extra `new`

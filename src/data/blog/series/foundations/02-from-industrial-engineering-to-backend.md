@@ -7,7 +7,7 @@ tags:
   - engineering
   - systems
   - career
-featured: true
+featured: false
 draft: false
 hideEditPost: true
 ---

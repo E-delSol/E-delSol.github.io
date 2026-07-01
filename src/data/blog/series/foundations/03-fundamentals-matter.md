@@ -7,7 +7,7 @@ tags:
   - fundamentals
   - backend
   - engineering
-featured: true
+featured: false
 draft: false
 hideEditPost: true
 ---
