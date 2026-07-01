@@ -52,6 +52,7 @@ This blog is an attempt to explore those ideas through real projects and continu
 ## Latest Articles
 
 <!-- BLOG-POST-LIST:START -->
+- [Code Amnesia: The Hidden Side Effect of Developing with AI](https://e-delsol.github.io/posts/posts/code-amnesia/)
 - [Java Memory Efficiency: How Not to Blow Up Your Infrastructure with One Extra `new`](https://e-delsol.github.io/posts/posts/java-memory/)
 - [Why fundamentals matter more than technologies](https://e-delsol.github.io/posts/series/foundations/03-fundamentals-matter/)
 - [From Industrial Engineering to Backend Development](https://e-delsol.github.io/posts/series/foundations/02-from-industrial-engineering-to-backend/)
