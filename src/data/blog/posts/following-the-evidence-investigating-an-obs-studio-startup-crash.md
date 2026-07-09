@@ -63,6 +63,8 @@ The internet is full of commands that promise to fix almost any Linux problem. S
 
 This time I wanted to understand the problem before trying to solve it.
 
+I also decided to document the investigation as if it were a real production incident. Every observation, experiment, and finding ended up in a public repository.
+
 So I collected everything that could tell me what was happening.
 
 OBS logs.
@@ -210,3 +212,9 @@ Not collecting random fixes from old forum posts.
 Just sitting in front of a complex system, letting the evidence speak first, and accepting that sometimes the most honest answer in engineering is simply
 
 _"This is what the data tells us so far."_
+
+##Repository
+
+The complete investigation, including logs, environment details, GDB backtraces, experiments, findings, and reproducibility notes, is available on GitHub.
+
+https://github.com/E-delSol/obs-startup-crash-investigation
