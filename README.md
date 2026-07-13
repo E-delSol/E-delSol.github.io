@@ -52,11 +52,11 @@ This blog is an attempt to explore those ideas through real projects and continu
 ## Latest Articles
 
 <!-- BLOG-POST-LIST:START -->
+- [The 521 Error That Wasn&#39;t: Following the Evidence to a Backdoored PrestaShop](https://e-delsol.github.io/posts/posts/prestashop-error-521/)
 - [Following the Evidence: Investigating an OBS Studio Startup Crash](https://e-delsol.github.io/posts/posts/following-the-evidence-investigating-an-obs-studio-startup-crash/)
 - [Code Amnesia: The Hidden Side Effect of Developing with AI](https://e-delsol.github.io/posts/posts/code-amnesia/)
 - [Java Memory Efficiency: How Not to Blow Up Your Infrastructure with One Extra `new`](https://e-delsol.github.io/posts/posts/java-memory/)
 - [Why fundamentals matter more than technologies](https://e-delsol.github.io/posts/series/foundations/03-fundamentals-matter/)
-- [From Industrial Engineering to Backend Development](https://e-delsol.github.io/posts/series/foundations/02-from-industrial-engineering-to-backend/)
 <!-- BLOG-POST-LIST:END -->
 
 Read more at:
