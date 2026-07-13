@@ -16,7 +16,7 @@ tags:
 
 - performance
 
-featured: true
+featured: false
 
 draft: false
 
