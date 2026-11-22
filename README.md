@@ -52,11 +52,11 @@ This blog is an attempt to explore those ideas through real projects and continu
 ## Latest Articles
 
 <!-- BLOG-POST-LIST:START -->
+- [From Writing Code to Auditing What We Build. How AI Has Changed My Approach to Software Development](https://e-delsol.github.io/posts/posts/from-writing-code-to-auditing-what-we-build/)
 - [The Backdoor That Came Back: Investigating a Second PrestaShop Compromise](https://e-delsol.github.io/posts/posts/the-backdoor-that-came-back/)
 - [The 521 Error That Wasn&#39;t: Following the Evidence to a Backdoored PrestaShop](https://e-delsol.github.io/posts/posts/prestashop-error-521/)
 - [Following the Evidence: Investigating an OBS Studio Startup Crash](https://e-delsol.github.io/posts/posts/following-the-evidence-investigating-an-obs-studio-startup-crash/)
 - [Code Amnesia: The Hidden Side Effect of Developing with AI](https://e-delsol.github.io/posts/posts/code-amnesia/)
-- [Java Memory Efficiency: How Not to Blow Up Your Infrastructure with One Extra `new`](https://e-delsol.github.io/posts/posts/java-memory/)
 <!-- BLOG-POST-LIST:END -->
 
 Read more at:
